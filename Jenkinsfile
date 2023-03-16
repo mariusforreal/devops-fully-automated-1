@@ -15,14 +15,7 @@ pipeline {
         jdk 'localJdk'
     }
 
-    stages {
-        stage('Git checkout') {
-            steps {
-                echo 'Cloning the application code...'
-                git branch: 'main', url: 'https://github.com/mariusforreal/devops-fully-automated-1.git'
 
-            }
-        }
 
         stage('Build') {
             steps {
