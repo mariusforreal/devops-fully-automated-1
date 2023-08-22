@@ -216,7 +216,7 @@ Copy your Nexus Public IP Address and paste on the browser = http:://NexusServer
     - Once login to the Nexus server, click on Settings icon --> Repository --> Repositories
     - Click on Create repository
     - Select maven2(group)
-    - Name: maven_project
+    - Name: maven-project
     - Scroll-down to Group section & select all the available repositories (maven-snapshots, maven-public, maven-releases, maven-central) as members
     Hint: You can select one repo at a time and click on > symbol to add the repo as group member.
     - Once all the repositories are added to the group, click on Create repository
