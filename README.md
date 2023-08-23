@@ -274,7 +274,7 @@ Copy your Grafana Public IP Address and paste on the browser = http:://GrafanaSe
 3) #### Create Jenkins Performance and Health Overview Dashboard:    
     - Navigate to "Create" on your left (the `+` sign)
         - Click on "Import"
-        - Copy the following link: https://grafana.com/grafana/dashboards/9964                              ( #Ref: https://grafana.com/grafana/dashboards/9964-jenkins-performance-and-health-overview/)
+        - Copy the following link: https://grafana.com/grafana/dashboards/9964                              ( #Ref: https://grafana.com/grafana/dashboards/9964-jenkins-performance-and-health-overview/) or https://grafana.com/grafana/dashboards/10242-node-exporter-full/
         - Paste the above link where you have "Import Via Grafana.com"
         - Click on Load (The one right beside the link you just pasted)
         - Scrol down to "Prometheus" and select the "Data Source" you defined ealier which is "Prometheus"
