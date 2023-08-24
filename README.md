@@ -44,7 +44,7 @@
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/mariusforreal/devops-fully-automated-1-scripts/blob/main/deployment-servers-setup.sh
     - Launch Instance
-    - After launching this Jenkins servers, attach a tag as **Key=Environment, value=dev/stage/prod** ( out of 6, each 2 instances could be tagges as one env)
+    - After launching these deployment servers, attach a tag as **Key=Environment, value=dev/stage/prod** ( out of 6, each 2 instances could be tagges as one env)
 
 6) ###### Prometheus
     - Create Amazon Linux 2 VM instance and call it "Prometheus"
