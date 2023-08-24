@@ -54,6 +54,9 @@
     - **Attach Prometheus server with IAM role having "AmazonEC2ReadOnlyAccess"**
     - User data (Copy the following user data): https://github.com/mariusforreal/devops-fully-automated-1-scripts/blob/main/prometheus-setup.sh
     - Launch Instance
+  
+    - NB: Once provisioned, log in to Prometheus server
+    - cd /etc/prometheus/ and edit the prometheus.yml file to add jenkins private ip address. Uncomment if necessary
 
 7) ###### Grafana
     - Create an **Ubuntu 20.04** VM instance and call it "Grafana"
